@@ -1,5 +1,5 @@
 const quizForm = document.querySelector(".quiz-form");
-const submitAnswerBtn = document.querySelector("#submit-answer-btn");
+const submitAnswerBtn = document.querySelector("#btn");
 const outputE1 = document.querySelector("#output");
 
 submitAnswerBtn.addEventListener("click", calculateScore);

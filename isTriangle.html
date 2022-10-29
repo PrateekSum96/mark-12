@@ -8,20 +8,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Angles of triangles</h1>
+    <nav class="navigation-container">
+      <div class="nav-head">fun with triangles</div>
+      <a href="isTriangle.html" class="link">Is Triangle?</a>
+      <a href="quiz.html" class="link">Quiz</a>
+      <a href="hypotenuse.html" class="link">Hypotenuse</a>
+      <a href="area.html" class="link">Area</a>
+    </nav>
+    <hr />
 
-    <label for="angle1">Angle 1 : </label>
-    <input type="number" class="angle-input" />
+    <main>
+      <h1>Angles of triangles</h1>
 
-    <label for="angle2">Angle 2 : </label>
-    <input type="number" class="angle-input" />
+      <label for="angle1">Angle 1 : </label>
+      <input type="number" class="angle-input" />
 
-    <label for="angle3">Angle 3 : </label>
-    <input type="number" class="angle-input" />
+      <label for="angle2">Angle 2 : </label>
+      <input type="number" class="angle-input" />
 
-    <button id="is-triangle-btn">Is Triangle?</button>
+      <label for="angle3">Angle 3 : </label>
+      <input type="number" class="angle-input" />
 
-    <p id="output"></p>
-    <script src="app.js"></script>
+      <button id="btn">Is Triangle?</button>
+
+      <p id="output"></p>
+    </main>
+
+    <script src="isTriangle.js"></script>
   </body>
 </html>

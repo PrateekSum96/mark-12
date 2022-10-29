@@ -1,0 +1,56 @@
+:root {
+  --primary-color: rgb(0, 115, 255);
+  --primary-text: rgb(255, 255, 255);
+}
+body {
+  background-color: var(--primary-color);
+  display: block;
+}
+
+main {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--primary-text);
+  padding: 0.5rem;
+}
+label {
+  display: block;
+  padding: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.4rem;
+  color: var(--primary-text);
+  font-size: 1rem;
+}
+.nav-head {
+  padding: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-text);
+  text-align: center;
+}
+
+.navigation-container {
+  padding: 0.5rem;
+  margin: auto;
+}
+
+#btn {
+  padding: 0.5rem;
+  color: var(--primary-text);
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: bold;
+  border-color: var(--primary-text);
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.footer {
+  height: 10vh;
+}
+input {
+  display: block;
+  margin: auto;
+}

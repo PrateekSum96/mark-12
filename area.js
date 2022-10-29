@@ -1,5 +1,5 @@
 const sideTriangle = document.querySelectorAll(".sides");
-const calculateAreaBtn = document.querySelector("#area-calculate-btn");
+const calculateAreaBtn = document.querySelector("#btn");
 const outputE1 = document.querySelector("#output");
 
 function areaCalculate() {
